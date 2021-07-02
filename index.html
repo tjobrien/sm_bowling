@@ -1,0 +1,115 @@
+
+ <!doctype html>
+ <html lang="en">
+     <head>
+       <meta charset="utf-8">
+       <title>Strong Mind Bowling Challenge</title>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://www.thermofisher.com/etc/designs/lifetech/clientlibs/base.min.css" type="text/css">
+       <link rel="stylesheet" href="https://www.thermofisher.com/etc/designs/lifetech/clientlibs/base-responsive.min.css" type="text/css">
+      
+
+       <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+       <link rel="stylesheet" href="cis.css" />
+       <script src="cis.js"></script>
+    
+       
+     </head>
+     <body class="coo">
+      <div class="container">
+          <div class="row">
+            <div class="span12">
+                <h3 class="linetop">Score</h3>
+                <p>Instructions - Enter the score for each roll in the box for each frame. In the case of a strike - enter 10 in the first roll. If you get a spare ( a score of 10 in 2 rolls) the app will
+                  calculate your score for you - just enter the number of pins from each roll.
+                </p>
+                <div>
+                  <table>
+                    <tbody>
+                    <tr>
+                      <th>Roll</th>
+                      <th>Frame 1 </th>
+                      <th>Frame 2 </th>
+                      <th>Frame 3 </th>
+                      <th>Frame 4 </th>
+                      <th>Frame 5 </th>
+                      <th>Frame 6 </th>
+                      <th>Frame 7 </th>
+                      <th>Frame 8 </th>
+                      <th>Frame 9 </th>
+                      <th>Frame 10 </th>
+                    </tr>
+                   
+                      <tr><td>1</td>
+                        <td><input id="frame_1_1" type="text" class="field-sm" /></td>
+                        <td><input id="frame_2_1" type="text" class="field-sm" /></td>
+                        <td><input id="frame_3_1" type="text" class="field-sm" /></td>
+                        <td><input id="frame_4_1" type="text" class="field-sm" /></td>
+                        <td><input id="frame_5_1" type="text" class="field-sm" /></td>
+                        <td><input id="frame_6_1" type="text" class="field-sm" /></td>
+                        <td><input id="frame_7_1" type="text" class="field-sm" /></td>
+                        <td><input id="frame_8_1" type="text" class="field-sm" /></td>
+                        <td><input id="frame_9_1" type="text" class="field-sm" /></td>
+                        <td><input id="frame_10_1" type="text" class="field-sm" /></td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td><input id="frame_1_2" type="text" class="field-sm" /></td>
+                        <td><input id="frame_2_2" type="text" class="field-sm" /></td>
+                        <td><input id="frame_3_2" type="text" class="field-sm" /></td>
+                        <td><input id="frame_4_2" type="text" class="field-sm" /></td>
+                        <td><input id="frame_5_2" type="text" class="field-sm" /></td>
+                        <td><input id="frame_6_2" type="text" class="field-sm" /></td>
+                        <td><input id="frame_7_2" type="text" class="field-sm" /></td>
+                        <td><input id="frame_8_2" type="text" class="field-sm" /></td>
+                        <td><input id="frame_9_2" type="text" class="field-sm" /></td>
+                        <td><input id="frame_10_2" type="text" class="field-sm" /></td>
+                      </tr>
+                      <tr id="ten">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input id="frame_10_3" type="text" class="field-sm" /></td>
+                        <td id="ten_instructions">enter extra roll score </td>
+
+                      </tr>
+              
+                      <tr>
+                        <td>Frame Total</td>
+                        <td id="total_1"></td>
+                        <td id="total_2"></td>
+                        <td id="total_3"></td>
+                        <td id="total_4"></td>
+                        <td id="total_5"></td>
+                        <td id="total_6"></td>
+                        <td id="total_7"></td>
+                        <td id="total_8"></td>
+                        <td id="total_9"></td>
+                        <td id="total_10"></td>        
+                      </tr>
+                   <tr><td>Total Score</td><td id="total_score"></td></tr>
+                  </table>
+                </div> <!--chart-->
+                </div> <!-- span6 -->
+          <div class="row">
+            <div class="span12">
+                
+                <fieldset>
+                  
+                  <button id="reset" type="button">Reset</button>
+
+                </fieldset>
+            </div>
+          </div> <!-- row -->
+        </form>
+      </div> <!--container-->
+     
+      </body>
+ </html>
